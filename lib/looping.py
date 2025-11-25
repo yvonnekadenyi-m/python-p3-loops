@@ -10,3 +10,8 @@ def square_integers(int_list):
     return [num ** 2 for num in int_list]
 
 
+def fizzbuzz():
+    for i in range(1, 101):
+        if i % 3 == 0 and i % 5 == 0:
+            print("FizzBuzz")
+        
